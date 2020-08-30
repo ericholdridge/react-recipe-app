@@ -29,6 +29,7 @@ const styles = css`
     align-items: center;
     .logo {
       color: #fff;
+      font-weight: 700;
     }
     .nav-items {
       width: 100%;
@@ -37,9 +38,10 @@ const styles = css`
       justify-content: space-between;
       a {
         color: #fff;
+        text-decoration: none;
       }
     }
   }
-`
+`;
 
 export default Navbar;
